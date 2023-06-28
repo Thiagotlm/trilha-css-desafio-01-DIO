@@ -69,7 +69,7 @@ section{
 }
 
 .banner .banner-content button{
-    color: #31A8DD;
+    color: white;
     font-size: 1rem;
     font-weight: bold;
     padding: 16px 32px;
@@ -78,8 +78,20 @@ section{
     background-color: transparent;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
-    border-radius: 30px; 
     cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgba(6, 112, 165, 0.7);
+}
+.banner .banner-content button a{
+    text-decoration: none;
+    color: white;
+}
+.banner .banner-content button:hover {
+    color: white;
+    background-color: #1572B7;
+}
+.banner .banner-content button a:hover {
+    color: white;
+    
 }
 
 #course-content{
