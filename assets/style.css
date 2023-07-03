@@ -164,7 +164,7 @@ footer .dio-logo {
 
   /*Aplicando responsividade mobile*/
 
-  @media (max-width: 600px){
+  @media (max-width: 670px){
     header{
         margin-right: -260px;        
     } 
